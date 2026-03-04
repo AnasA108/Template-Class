@@ -1,0 +1,8 @@
+If we create Calculator<string>, the program will give compile-time errors because subtraction, multiplication, and division operators are not defined for strings.
+
+add() works
+sub() causes error
+mul() causes error
+div() causes error
+
+The issue happens because templates require the data type to support all operations used inside the class.
